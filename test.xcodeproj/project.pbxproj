@@ -12,6 +12,16 @@
 		278DA41A1C86EFC300B5BCF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278DA4181C86EFC300B5BCF1 /* Main.storyboard */; };
 		278DA41C1C86EFC300B5BCF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278DA41B1C86EFC300B5BCF1 /* Assets.xcassets */; };
 		278DA41F1C86EFC300B5BCF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278DA41D1C86EFC300B5BCF1 /* LaunchScreen.storyboard */; };
+		278DA43D1C8703F100B5BCF1 /* ド.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 278DA4341C8703F100B5BCF1 /* ド.mp3 */; };
+		278DA43E1C8703F100B5BCF1 /* ラ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 278DA4351C8703F100B5BCF1 /* ラ.mp3 */; };
+		278DA43F1C8703F100B5BCF1 /* シ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 278DA4361C8703F100B5BCF1 /* シ.mp3 */; };
+		278DA4401C8703F100B5BCF1 /* ピアノの鍵盤イラレ.png in Resources */ = {isa = PBXBuildFile; fileRef = 278DA4371C8703F100B5BCF1 /* ピアノの鍵盤イラレ.png */; };
+		278DA4411C8703F100B5BCF1 /* ソ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 278DA4381C8703F100B5BCF1 /* ソ.mp3 */; };
+		278DA4421C8703F100B5BCF1 /* ピアノの鍵盤２イラレ.png in Resources */ = {isa = PBXBuildFile; fileRef = 278DA4391C8703F100B5BCF1 /* ピアノの鍵盤２イラレ.png */; };
+		278DA4431C8703F100B5BCF1 /* ファ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 278DA43A1C8703F100B5BCF1 /* ファ.mp3 */; };
+		278DA4441C8703F100B5BCF1 /* ミ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 278DA43B1C8703F100B5BCF1 /* ミ.mp3 */; };
+		278DA4451C8703F100B5BCF1 /* レ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 278DA43C1C8703F100B5BCF1 /* レ.mp3 */; };
+		278DA4471C87075100B5BCF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278DA4461C87075100B5BCF1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		278DA41B1C86EFC300B5BCF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278DA41E1C86EFC300B5BCF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		278DA4201C86EFC300B5BCF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278DA4341C8703F100B5BCF1 /* ド.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ド.mp3"; sourceTree = "<group>"; };
+		278DA4351C8703F100B5BCF1 /* ラ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ラ.mp3"; sourceTree = "<group>"; };
+		278DA4361C8703F100B5BCF1 /* シ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "シ.mp3"; sourceTree = "<group>"; };
+		278DA4371C8703F100B5BCF1 /* ピアノの鍵盤イラレ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ピアノの鍵盤イラレ.png"; sourceTree = "<group>"; };
+		278DA4381C8703F100B5BCF1 /* ソ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ソ.mp3"; sourceTree = "<group>"; };
+		278DA4391C8703F100B5BCF1 /* ピアノの鍵盤２イラレ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ピアノの鍵盤２イラレ.png"; sourceTree = "<group>"; };
+		278DA43A1C8703F100B5BCF1 /* ファ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ファ.mp3"; sourceTree = "<group>"; };
+		278DA43B1C8703F100B5BCF1 /* ミ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ミ.mp3"; sourceTree = "<group>"; };
+		278DA43C1C8703F100B5BCF1 /* レ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "レ.mp3"; sourceTree = "<group>"; };
+		278DA4461C87075100B5BCF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278DA4471C87075100B5BCF1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +59,7 @@
 		278DA4081C86EFC300B5BCF1 = {
 			isa = PBXGroup;
 			children = (
+				278DA4461C87075100B5BCF1 /* AVFoundation.framework */,
 				278DA4131C86EFC300B5BCF1 /* test */,
 				278DA4121C86EFC300B5BCF1 /* Products */,
 			);
@@ -54,6 +76,15 @@
 		278DA4131C86EFC300B5BCF1 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				278DA4341C8703F100B5BCF1 /* ド.mp3 */,
+				278DA4351C8703F100B5BCF1 /* ラ.mp3 */,
+				278DA4361C8703F100B5BCF1 /* シ.mp3 */,
+				278DA4371C8703F100B5BCF1 /* ピアノの鍵盤イラレ.png */,
+				278DA4381C8703F100B5BCF1 /* ソ.mp3 */,
+				278DA4391C8703F100B5BCF1 /* ピアノの鍵盤２イラレ.png */,
+				278DA43A1C8703F100B5BCF1 /* ファ.mp3 */,
+				278DA43B1C8703F100B5BCF1 /* ミ.mp3 */,
+				278DA43C1C8703F100B5BCF1 /* レ.mp3 */,
 				278DA4141C86EFC300B5BCF1 /* AppDelegate.swift */,
 				278DA4161C86EFC300B5BCF1 /* ViewController.swift */,
 				278DA4181C86EFC300B5BCF1 /* Main.storyboard */,
@@ -123,9 +154,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278DA4441C8703F100B5BCF1 /* ミ.mp3 in Resources */,
+				278DA4431C8703F100B5BCF1 /* ファ.mp3 in Resources */,
+				278DA4411C8703F100B5BCF1 /* ソ.mp3 in Resources */,
+				278DA4451C8703F100B5BCF1 /* レ.mp3 in Resources */,
+				278DA43F1C8703F100B5BCF1 /* シ.mp3 in Resources */,
 				278DA41F1C86EFC300B5BCF1 /* LaunchScreen.storyboard in Resources */,
+				278DA43E1C8703F100B5BCF1 /* ラ.mp3 in Resources */,
+				278DA43D1C8703F100B5BCF1 /* ド.mp3 in Resources */,
+				278DA4421C8703F100B5BCF1 /* ピアノの鍵盤２イラレ.png in Resources */,
 				278DA41C1C86EFC300B5BCF1 /* Assets.xcassets in Resources */,
 				278DA41A1C86EFC300B5BCF1 /* Main.storyboard in Resources */,
+				278DA4401C8703F100B5BCF1 /* ピアノの鍵盤イラレ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +325,7 @@
 				278DA4251C86EFC300B5BCF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
